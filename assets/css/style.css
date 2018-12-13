@@ -2,7 +2,7 @@
 
 /* Calculator Box */
 body {
-	background-color: #e5e7ea;
+	background-color: #515556;
 	margin: 0px;
 	height: 80vh;
 	-webkit-user-select: none;
@@ -18,11 +18,11 @@ body {
 .display {
 	height: 20vh;
 	width: 100%;
-	color: black;
-	background-color: #bccd95;
+	color: white;
+	background-color: black;
 	font-size: 8vw;
 	text-align: right;
-	border: 8px solid #bfc4ce;
+	border: 8px solid #125651;
 	padding: 0px;
 }
 
@@ -48,20 +48,20 @@ body {
 	border-radius: 12px;
 }
 .button.function {
-	color: white;
-	background-color: #c64f81;
+	color: #C11E11;
+	background-color: black;
 	border-bottom: black 8px solid;
 	border-top: 4px #6f6f6f solid;
 }
 .button.operator {
-	color: white;
-	background-color: #4d5966;
+	color: #00893C;
+	background-color: black;
 	border-bottom: black 8px solid;
 	border-top: 4px #6f6f6f solid;
 }
 .button.number {
-	color: white;
-	background-color: #7091ab;
+	color: #1B67F5;
+	background-color: black;
 	border-bottom: black 8px solid;
 	border-top: 4px #6f6f6f solid;
 }
