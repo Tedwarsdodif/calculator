@@ -40,7 +40,7 @@ var Calculator = {
 		// temporarily hold what was displayed
 		var temp = document.getElementById("d").value;
 		// indicate the save succeeded
-		document.getElementById("d").value = "Saved!";
+		document.getElementById("d").value = "You have Saved the NUMBER!";
 		// replace the value that was there before
 		setTimeout(function() {
 			document.getElementById("d").value = temp;
@@ -71,6 +71,7 @@ var Calculator = {
 		// check if browser supports localStorage
 		if (hasLocalStorage()) {
 			localStorage.removeItem("CalculatorData");
+
 		}
 
 		// temporarily hold what was displayed
