@@ -65,7 +65,12 @@ body {
 	border-bottom: black 8px solid;
 	border-top: 4px #6f6f6f solid;
 }
-
+.button.thingee {
+	color: #D5A700;
+	background-color: black;
+	border-bottom: black 8px solid;
+	border-top: 4px #6f6f6f solid;
+}
 /* Simulate Button Press */
 .function:active {
 	border-top: black 8px solid;
@@ -76,6 +81,10 @@ body {
 	border-bottom: #303030 4px solid;
 }
 .number:active {
+	border-top: black 8px solid;
+	border-bottom: 4px #6f6f6f solid;
+}
+.thingee:active {
 	border-top: black 8px solid;
 	border-bottom: 4px #6f6f6f solid;
 }
