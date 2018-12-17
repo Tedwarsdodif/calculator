@@ -36,7 +36,7 @@ var Calculator = {
 		if (hasLocalStorage()) {
 			localStorage.setItem("CalculatorData", mem);
 		}
- 
+
 		// temporarily hold what was displayed
 		var temp = document.getElementById("d").value;
 		// indicate the save succeeded
@@ -71,9 +71,7 @@ var Calculator = {
 		// check if browser supports localStorage
 		if (hasLocalStorage()) {
 			localStorage.removeItem("CalculatorData");
-
 		}
-
 		// temporarily hold what was displayed
 		var temp = document.getElementById("d").value;
 		// indicate successfully cleared
